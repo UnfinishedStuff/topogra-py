@@ -5,7 +5,8 @@ Draw maps using publicly-available topography data
 
 This repo contains a set of scripts for interpreting OSNI's 50m Digital Terrain Mapping topography data, available at https://www.opendatani.gov.uk/dataset/osni-open-data-50m-dtm.  This is a dataset of X and Y coordinates of Northern Ireland with associated heights for each coordinate, using ~50m x 50m chunks of land per set of coordinates.  The functions will pre-process this data (see below), use the Python Image Library (Pillow/PIL) to create an image to hold the data, and will then set the RGB values of each pixel to a colour dependent on the height.  In the current configuration blue is the lowest ground, and red/violet are the highest areas.  The functions currently *do not* take into account below-sea-level ground (this is set to a floor of "just above sea level").
 
-The output of the script can be seen above.
+A resized version of the output of the script can be seen above.  The full-sized image can be seen [here (3572x2864 pixels)](topography_of_NI_large.jpg).
+
 
 # Functions
 
