@@ -24,6 +24,6 @@ The output of the script can be seen above.
 # Further fun!
 
 * At some point I hope to update this to use the OSNI 10m resolution DTM data.  A quick examination shows some formatting differences, and the data are split across ~250 individual files, so I'm not certain this will run as part of the same script.
-* You can pass the final image to other image processing programs to make some interesting variations on the basic heatmap-style image.  The image below was simply run through GIMP's Emboss function.  It might look a bit better without the border and with some more careful adjustment of the parameters, but it's something which genuinely looks really nice at a higher resolution.
+* You can pass the final image to other image processing programs to make some interesting variations on the basic heatmap-style image.  The image below was run through GIMP's Emboss function.  A duplicate of the original had everything deleted except pixels with no height data (i.e. water pixels), which were coloured blue and overlaid on top of the embossed image.  It might look a bit better without the border and with some more careful adjustment of the parameters, but it's something which genuinely looks really nice at a higher resolution.
 
 ![Topogra-py output image embossed](topography_of_NI_embossed.jpg)
